@@ -1,0 +1,56 @@
+body {
+  background-color: #FEFBEA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.publish-button {
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3)
+}
+
+.bites-container {
+  background-color: #96CEE1;
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.bites-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.inventory-item {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.5rem;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-quantity {
+  font-size: small;
+  color: black;
+  padding-left: 2rem;
+}
+
+.delete-button {
+  margin-left: 13.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3)
+}
+
+.rules-button {
+  margin-top: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3)
+
+}
