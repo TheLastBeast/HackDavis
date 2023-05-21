@@ -5,42 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="signIn.css">
+    <link rel="stylesheet" href="userLogin.css">
 </head>
 <body>
-    <div class="navbar">
-        <div class="navbar-logo">
-            <img src="images/Vector.svg" alt="Logo">
-            <span>RescueBites</span>
-        </div>
-        <div class="search-bar">
-            <input type="text" placeholder="Search Bites">
-        </div>
-        <div class="navbar-links">
-            <a href="map.html" class="nav-color">Store Location</a>
-            <a href="log-in_user.html" class="nav-color">Login</a>
-            <a href="Signup_user.html" class="navbar-register">Register</a>
-        </div>
-    </div>
+    <img src="images/Vector.svg" alt="Logo">
+    <h1>RescueBites</h1>
     <div class = "Signup">
         <form>
-            <h1> Sign Up</h1>
-            <h2> Personal Information</h2>
+            <h2> Sign Up</h2>
+            <h3> Personal Information</h3>
             <label>First Name</label>
-            <input type="text" placeholder="">
+            <input type="text" placeholder="First Name">
             <label>Last Name</label>
-            <input type="text" placeholder="">           
+            <input type="text" placeholder="Last Name">           
             <label>Email</label>
-            <input type="email" placeholder="">
+            <input type="email" placeholder="Email">
+            <label>Username</label>
+            <input type="text" placeholder="Username"> 
             <label>Password</label>
             <input type="password" placeholder="">
             <label>Confirm Password</label>
             <input type="password" placeholder="">
-            <h3> Location</h3>
+            <h4> Location</h4>
             <label>Address</label>
-            <input type="text" placeholder="">     
+            <input type="text" placeholder="Address">     
             <label>City</label>
-            <input type="text" placeholder=""> 
+            <input type="text" placeholder="City"> 
             <label>State</label>
             <div class="custom_select">
                 <select>
@@ -100,9 +90,9 @@
                     <option value="">WY</option>
                 </select>
                 <label>ZIP Code</label>
-                <input type="text" placeholder=""> 
+                <input type="text" placeholder="ZIP Code"> 
             </div>     
-            <input type="button" value="Sign Up">
+            <button class="button">Sign Up</button> 
         </form>
 
        <p>By clicking the Sign Up button, you agree to our <br><a href="#">Terms and Condition</a> and <a href="#">Policy And Privacy</a></p>
